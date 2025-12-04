@@ -1,0 +1,30 @@
+# --- Core backend ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+
+# --- Environment & settings ---
+python-dotenv==1.0.1
+pydantic==2.8.2
+pydantic-core==2.20.1
+pydantic-settings==2.3.1
+
+# --- LangChain + Ollama integration ---
+langchain==0.2.10
+langchain-community==0.2.9
+langchain-ollama==0.1.3
+ollama==0.3.3
+
+# --- HTTP clients & parsing ---
+requests==2.32.3
+httpx==0.27.0
+aiohttp==3.9.5
+beautifulsoup4==4.12.3
+lxml==5.2.1
+
+# --- Image Processing ---
+Pillow==10.3.0
+
+# --- Testing tools ---
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
